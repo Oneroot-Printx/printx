@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4abb3b5f.chunk.css",
+    "main.js": "/static/js/main.d3424155.chunk.js",
+    "main.js.map": "/static/js/main.d3424155.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.14426421.js",
+    "runtime-main.js.map": "/static/js/runtime-main.14426421.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.3d73f4fa.chunk.js": "/static/js/2.3d73f4fa.chunk.js",
+    "static/js/2.3d73f4fa.chunk.js.map": "/static/js/2.3d73f4fa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.4abb3b5f.chunk.css.map": "/static/css/main.4abb3b5f.chunk.css.map",
+    "static/js/2.3d73f4fa.chunk.js.LICENSE.txt": "/static/js/2.3d73f4fa.chunk.js.LICENSE.txt",
+    "static/media/xeroxApp.3b4f70dc.png": "/static/media/xeroxApp.3b4f70dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14426421.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.3d73f4fa.chunk.js",
+    "static/css/main.4abb3b5f.chunk.css",
+    "static/js/main.d3424155.chunk.js"
+  ]
+}
