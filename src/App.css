@@ -1,0 +1,161 @@
+.App {
+  height: 100vh;
+  background: #000
+    url("https://i.ibb.co/KWT8d8X/png-20220322-212049-0000-1-1.png") no-repeat
+    center center;
+  background-size: cover;
+  /* https://storage.googleapis.com/staging.xeroxapp-fbe3c.appspot.com/png_20220322_212049_0000%20(1)%20(1).png */
+  /* background: "url(`https://i.ibb.co/KWT8d8X/png-20220322-212049-0000-1-1.png`) no-repeat center center"; */
+  width: 100vw;
+  /* background-color: black; */
+}
+
+.firstPage {
+  height: 100%;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 40px;
+
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstPage > h1 {
+  color: white;
+}
+
+.SecondApp {
+  width: 100vw;
+  background-color: black;
+}
+
+.SecondPage {
+  height: 100%;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.SecondPage > h5 {
+  width: max-content;
+  margin-right: 20px;
+  text-align: center;
+  align-self: center;
+  cursor: pointer;
+}
+.image {
+  margin-left: 40px;
+  height: 80%;
+}
+
+.firstPageContent {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.printxBtn {
+  background-color: #ffd222;
+  border-radius: 24px;
+  margin-right: 20px;
+  border-color: transparent;
+  margin-top: 30px;
+  /* height: 40px; */
+}
+.printxBtn {
+  color: black;
+  /* margin-top: 20px; */
+  align-self: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 500;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  /* padding-top: 2px; */
+  /* padding-bottom: 10px; */
+  padding: 5px 30px 5px 30px;
+}
+.experience {
+  color: white;
+  font-size: 26px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.firstPageContent > label {
+  color: #ffd222;
+  text-align: end;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.firstPageContent > h2 {
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+.images {
+  flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .firstPage {
+    margin-inline: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .SecondPage {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+  }
+  .image {
+    margin-left: 0px;
+    height: 56%;
+    padding-top: 5px;
+  }
+
+  .firstPageContent {
+    align-self: flex-end;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-right: 2px;
+    width: 100%;
+    align-items: flex-end;
+  }
+  .firstPageContent > h2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .firstPageContent > label {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .printxBtn {
+    margin-right: 0px;
+
+    margin-top: 20px;
+  }
+
+  .SecondPage > h5 {
+    width: fit-content;
+    padding-top: 10px;
+  }
+  .firstPageContent > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: flex-end;
+  }
+}
