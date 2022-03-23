@@ -237,10 +237,18 @@ function App() {
             <h1 className="experience">Experience</h1>
             <label className="typing">PRINTING DOCUMENTS WITH EASE !</label>
             <a href="https://play.google.com/store/apps/details?id=com.printxcenter.printx">
-              <div on className="printxBtn">
+              {/* <div on className="printxBtn">
+              <
                 <label>PRINTX</label>
-              </div>
+              </div> */}
+              <img
+                alt="google-ply"
+              className="googlePlay"
+                src={require("./assets/google-play-badge.png").default}
+              />
             </a>
+            <h3 className="offers">Get 50% off upto ₹50 on your first order</h3>
+            <h6 className="tc">* T&C apply</h6>
             <h2>Download the app now!</h2>
           </div>
         </div>

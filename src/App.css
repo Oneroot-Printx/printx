@@ -1,21 +1,23 @@
 .App {
   height: 100vh;
   background: #000
-    url("https://storage.googleapis.com/staging.xeroxapp-fbe3c.appspot.com/png_20220322_212049_0000%20(1)%20(1).png") no-repeat
-    center center;
+    url("https://storage.googleapis.com/staging.xeroxapp-fbe3c.appspot.com/png_20220322_212049_0000%20(1)%20(1).png")
+    no-repeat center center;
   background-size: cover;
   /* https://storage.googleapis.com/staging.xeroxapp-fbe3c.appspot.com/png_20220322_212049_0000%20(1)%20(1).png */
   /* background: "url(`https://i.ibb.co/KWT8d8X/png-20220322-212049-0000-1-1.png`) no-repeat center center"; */
   width: 100vw;
   /* background-color: black; */
 }
+.offers {
+  font-size: 20px;
+}
 
 .firstPage {
   height: 100%;
   align-items: center;
-  margin-left: 10%;
+  margin-left: 7%;
   margin-right: 40px;
-
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -65,8 +67,14 @@
   border-radius: 24px;
   margin-right: 20px;
   border-color: transparent;
-  margin-top: 30px;
+  margin-top: 15px;
   /* height: 40px; */
+}
+.offers {
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: end;
+  color: white;
 }
 .printxBtn {
   color: black;
@@ -82,6 +90,9 @@
   /* padding-bottom: 10px; */
   padding: 5px 30px 5px 30px;
 }
+.printxBtn > label:hover {
+  cursor: pointer;
+}
 .experience {
   color: white;
   font-size: 26px;
@@ -95,15 +106,27 @@
   color: #ffd222;
   text-align: end;
   letter-spacing: 1px;
-  margin-top: 20px;
   font-weight: 600;
   font-size: 40px;
 }
 .firstPageContent > h2 {
   color: white;
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size: 20px;
   letter-spacing: 2px;
+}
+.firstPageContent > h6 {
+  color: white;
+  padding: 0;
+  margin: 1px;
+  font-size: 10px;
+}
+
+.googlePlay {
+  width: 240px;
+  margin: 0;
+  padding: 0;
 }
 .images {
   flex-direction: row;
@@ -121,36 +144,44 @@
   }
   .image {
     margin-left: 0px;
-    height: 56%;
+    height: 53%;
     padding-top: 5px;
   }
 
   .firstPageContent {
     align-self: flex-end;
     padding-bottom: 40px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-right: 2px;
+
     width: 100%;
     align-items: flex-end;
   }
   .firstPageContent > h2 {
-    margin-top: 10px;
+    margin-top: 0px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
   }
   .firstPageContent > label {
-    margin-top: 10px;
+    /* margin-top: 100px; */
     font-size: 30px;
   }
 
   .printxBtn {
     margin-right: 0px;
+    margin-top: 6px;
+  }
 
-    margin-top: 20px;
+  .offers {
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: end;
+    color: white;
   }
 
   .SecondPage > h5 {
     width: fit-content;
+    font-size: 14px;
     padding-top: 10px;
   }
   .firstPageContent > h1 {
