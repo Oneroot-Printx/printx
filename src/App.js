@@ -238,12 +238,11 @@ function App() {
             <label className="typing">PRINTING DOCUMENTS WITH EASE !</label>
             <a href="https://play.google.com/store/apps/details?id=com.printxcenter.printx">
               {/* <div on className="printxBtn">
-              <
-                <label>PRINTX</label>
+              < <label>PRINTX</label>
               </div> */}
               <img
                 alt="google-ply"
-              className="googlePlay"
+                className="googlePlay"
                 src={require("./assets/google-play-badge.png").default}
               />
             </a>
